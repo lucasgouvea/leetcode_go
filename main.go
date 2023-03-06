@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	solutions "main/solutions"
+	"main/solutions"
 )
 
 func main() {
-	res := solutions.IsAnagram("anagram", "nagaram")
+	res := solutions.TitleToNumber("AAA")
 	fmt.Printf("res: %v\n", res)
 
 }
